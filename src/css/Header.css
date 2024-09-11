@@ -1,0 +1,57 @@
+.intro_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../public/portfolio_header_2.jpg");
+    width: 100vw;
+    min-height: 100vh;
+  }
+  
+  #header-desc {
+    font-family: 'Source Code Pro', monospace; /* Coding font */
+    font-size: 2rem;
+  
+  }
+  
+  #header-name {
+    font-family: 'Source Code Pro', monospace; /* Coding font */
+    color: #2B2D42; /* Terminal green */
+    font-size: 6rem;
+    position: relative; /* Needed to position the cursor */
+  }
+  
+  #header-name::after {
+    content: '_'; /* The blinking cursor */
+    position: absolute;
+    right: -0.5em; /* Adjust the space between the text and cursor */
+    animation: blink 1s step-end infinite;
+    color: #2B2D42; /* Cursor color */
+  }
+  
+  @keyframes blink {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  #contact-links {
+    height: 1em;
+    
+  }
+  
+  #github-container {
+    width: 1em;
+    height: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  .icon {
+    width: 3em;
+    height: 3em;
+  }
+  
+  .info-link {
+    text-decoration: none;
+    color: #2B2D42;
+  }
