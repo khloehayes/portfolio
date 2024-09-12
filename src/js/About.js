@@ -3,7 +3,7 @@ import '../css/About.css';
 
 function About() {
     return(
-        <section className="about-section">
+        <section className="about-section" id="about">
       <div className="about-container">
         {/* Left Column: Larger Image */}
         <div className="about-image">
@@ -20,8 +20,9 @@ function About() {
 
           {/* Contact Information */}
           <div className="contact-info">
-            <p><i className="fas fa-envelope"></i> khloe.m.hayes@gmail.com</p>
-            <p><i className="fas fa-phone"></i> +1 (616) 581-5599</p>
+            <p>
+              <i className="fas fa-envelope"></i> khloe.m.hayes@gmail.com</p>
+            <p><i className="fas fa-phone"></i> +1 (616)581-5599</p>
           </div>
 
           {/* Short Resume */}

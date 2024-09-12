@@ -17,7 +17,7 @@
   #header-name {
     font-family: 'Source Code Pro', monospace; /* Coding font */
     color: #2B2D42; /* Terminal green */
-    font-size: 6rem;
+    font-size: 5rem;
     position: relative; /* Needed to position the cursor */
   }
   
@@ -52,6 +52,15 @@
   }
   
   .info-link {
+    text-decoration: none;
+    color: #2B2D42;
+  }
+
+.nav-links {
+  list-style: none;
+}
+
+  .nav-link {
     text-decoration: none;
     color: #2B2D42;
   }

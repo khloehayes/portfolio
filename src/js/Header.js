@@ -38,6 +38,8 @@ function Header() {
         </span>
       </div>
         <h1 id="header-name">Hello! I'm Khloe Hayes</h1>
+        <a href="#about" className='nav-link'>ABOUT</a>
+        <a href="#projects" className='nav-link'>PROJECTS</a>
         <p id="header-desc">Developer | Engineer | Problem Solver | Creator</p>
     </header>
     
