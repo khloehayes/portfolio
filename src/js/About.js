@@ -7,7 +7,7 @@ function About() {
             <div className="about-container">
                 {/* Left Column: Larger Image */}
                 <div className="about-image">
-                    <img src="headshot_new.png" alt="Khloe Hayes" />
+                    <img src="../../images/headshot_new.png" alt="Khloe Hayes" />
                 </div>
 
                 {/* Right Column: Resume and About Info */}

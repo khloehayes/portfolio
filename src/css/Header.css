@@ -38,7 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../../public/portfolio_header_2.jpg");
+    background-image: url("../images/portfolio_header_2.jpg");
     width: 100vw;
     min-height: 100vh;
   }

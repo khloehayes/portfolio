@@ -10,17 +10,17 @@ function Header() {
     {/* Icon Links */}
     <li className="nav-item">
       <a href="https://github.com/khloehayes/" target="_blank" rel="noreferrer">
-        <img src="github.png" alt="GitHub" className="icon" />
+        <img src="../images/github.png" alt="GitHub" className="icon" />
       </a>
     </li>
     <li className="nav-item">
       <a href="https://www.linkedin.com/in/khloe-hayes" target="_blank" rel="noreferrer">
-        <img src="linkedin.svg" alt="LinkedIn" className="icon" />
+        <img src="../images/linkedin.svg" alt="LinkedIn" className="icon" />
       </a>
     </li>
     <li className="nav-item">
       <a href="mailto:khloe.m.hayes@gmail.com">
-        <img src="email.svg" alt="Email" className="icon" />
+        <img src="../images/email.svg" alt="Email" className="icon" />
       </a>
     </li>
   </ul>
