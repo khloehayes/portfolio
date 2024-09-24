@@ -50,7 +50,7 @@
   
   .project-info h3 {
     font-size: 1.8rem;
-    color: #00bfa5;
+    color: #FF6F61  ;
     margin-bottom: 10px;
   }
   
@@ -60,14 +60,14 @@
   }
   
   .project-info a {
-    color: #00bfa5;
+    color: #FF6F61  ;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
   }
   
   .project-info a:hover {
-    color: #008c7a;
+    color: #FF6F61  ;
   }
 
   /* For larger screens, restrict to 2 columns */

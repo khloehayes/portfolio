@@ -27,6 +27,14 @@ function Projects() {
       imageUrl: "img_1.png", // Replace with the actual image URL for the project
       projectLink: "http://cse.msu.edu/~vanderc9/index.html", // Replace with the actual project link
     },
+    {
+      title: "Amy's Cottages",
+      description: "As part of my first freelance web development"
+            + " opportunity, I developed a webpage for the rentals called 'Amy's Cottages' at Chippewa Lake. "
+            + "This (in addition to my webpage) highlights my ability to build beautiful and mobile friendly front end applications.",
+      imageUrl: "amyscottages.jpg", // Replace with the actual image URL for the project
+      projectLink: "https://cottages-188509366972.us-central1.run.app/home", // Replace with the actual project link
+    },
     
     // Add more projects as needed
   ];

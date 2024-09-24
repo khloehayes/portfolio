@@ -1,82 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap'); /* Optional: use a coding font like Source Code Pro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap');
 
 .about-section {
-    padding: 50px;
+    padding: 80px 40px;
     background-color: #2B2D42;
     font-family: 'Source Code Pro', monospace;
-    color:#fff;
-  }
-  
-  .about-container {
+    color: #fff;
+    text-align: left;
+    border-radius: 12px;
+}
+
+.about-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
-    max-width: 1200px; /* Increase width to make space for larger image */
+    justify-content: flex-start; /* Align items to the start */
+    max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .about-image img {
-    width: 300px; /* Increase image size */
-    height: 300px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.about-image img {
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
-  }
-  
-  .about-content {
-    flex: 1;
-    margin-left: 50px; /* Adjust margin to balance large image */
-  }
-  
-  .about-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .contact-info p {
-    margin: 10px 0;
-    font-size: 1.2rem;
-  }
-  
-  .contact-info i {
-    margin-right: 10px;
-    color: #00bfa5;
-  }
-  
-  .about-text {
-    font-size: 1.2rem;
-    color: #fff;
-    line-height: 1.6;
-    margin-bottom: 30px;
-  }
-  
-  .resume h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #fff;
-  }
-  
-  .resume p, .resume ul {
-    font-size: 1.1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border: 4px solid #FF6F61; /* Coral color */
+}
+
+.about-content {
+    flex: 1; /* Allows the content to take up available space */
+    margin-left: 50px;
+}
+
+.about-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.contact-info {
+    margin-top: 20px; 
+    background-image: url("../../public/portfolio_header_2.jpg");
+    background-repeat: 2;
+    width: 40%;
+    border-radius:4%;
+    padding-bottom: 1rem;
+}
+
+.contact-info h3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+    font-size: 1.7rem;
     margin-bottom: 15px;
-  }
-  
-  .resume ul {
-    list-style: disc inside;
-  }
-  
-  @media (max-width: 768px) {
+    color: #FF6F61; /* Coral for section title */
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.0rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+    color:#2B2D42;
+}
+
+.contact-info p:hover {
+    color: #FF6F61; /* Coral color on hover */
+}
+
+.contact-info i {
+    color: #FF6F61; /* Coral icon color */
+    font-size: 1.5rem;
+}
+
+.info-link {
+    padding-left: 1rem;;
+    color: #2B2D42; /* Text color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.info-link:hover {
+    color: #FF6F61; /* Coral color on hover */
+}
+
+.about-text {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #d1d1e9;
+    margin-bottom: 40px;
+}
+
+/* Full-width experience section */
+/* Other styles remain unchanged... */
+
+/* Full-width experience section */
+.experience-section {
+  margin-top: 40px; /* Space between about content and experience section */
+  padding: 20px 40px; /* Optional padding */
+  background-color: #2B2D42; /* Match background color */
+  border-radius: 12px; /* Same border radius */
+}
+
+.resume h3 {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+  color: #FF6F61; /* Coral for section title */
+}
+
+.experience-section ul {
+  list-style: none; /* Remove bullets */
+  padding-left: 0;
+}
+
+.experience-section li {
+  margin-bottom: 30px;
+}
+.resume ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resume .job-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #fff; /* Coral for job title */
+  margin-bottom: 5px;
+}
+
+.resume .role {
+  display: block; /* Change to block for new line */
+  font-size: 1.2rem;
+  color: #FF6F61;
+  margin-bottom: 5px;
+}
+
+.resume .date {
+  font-size: 1rem;
+  color: #aaa;
+  margin-top: 5px;
+  display: block; /* Change to block for new line */
+}
+
+.resume p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #d1d1e9;
+}
+
+@media (max-width: 768px) {
     .about-container {
-      flex-direction: column;
-      text-align: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
     }
-  
-    .about-image {
-      margin-bottom: 20px;
-    }
-  
+
     .about-content {
-      margin-left: 0;
+        margin-left: 0;
     }
-  }
-  
+
+    .about-image img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .about-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+    .experience-section h3 {
+        font-size: 1.5rem;
+    }
+}
