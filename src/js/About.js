@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/About.css';
+import headShot from '../images/headshot_new.png';
 
 function About() {
     return (
@@ -7,7 +8,7 @@ function About() {
             <div className="about-container">
                 {/* Left Column: Larger Image */}
                 <div className="about-image">
-                    <img src="../../images/headshot_new.png" alt="Khloe Hayes" />
+                    <img src={headShot} alt="Khloe Hayes" />
                 </div>
 
                 {/* Right Column: Resume and About Info */}

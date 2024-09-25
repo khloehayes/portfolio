@@ -1,5 +1,8 @@
 import React from 'react';
 import '../css/Header.css';
+import linkedIn from '../images/linkedin.svg';
+import gitHubImg from '../images/github.png';
+import emailImg from '../images/email.svg';
 
 function Header() {
     return (
@@ -10,17 +13,17 @@ function Header() {
     {/* Icon Links */}
     <li className="nav-item">
       <a href="https://github.com/khloehayes/" target="_blank" rel="noreferrer">
-        <img src="../images/github.png" alt="GitHub" className="icon" />
+        <img src={gitHubImg} alt="GitHub" className="icon" />
       </a>
     </li>
     <li className="nav-item">
       <a href="https://www.linkedin.com/in/khloe-hayes" target="_blank" rel="noreferrer">
-        <img src="../images/linkedin.svg" alt="LinkedIn" className="icon" />
+        <img src={linkedIn} alt="LinkedIn" className="icon" />
       </a>
     </li>
     <li className="nav-item">
       <a href="mailto:khloe.m.hayes@gmail.com">
-        <img src="../images/email.svg" alt="Email" className="icon" />
+        <img src={emailImg} alt="Email" className="icon" />
       </a>
     </li>
   </ul>
