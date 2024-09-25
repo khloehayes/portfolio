@@ -15,7 +15,7 @@ function Projects() {
       + "image passes the requirements to be a badge photo. We also used React.js to "
       + "create our webpage and AWS Amplify to host it. We used AWS DynamoDB and S3 "
       + "buckets to store any data we need.",
-      imageUrl: {employeeBadge}, // Replace with the actual image URL for the project
+      imageUrl: employeeBadge, // Replace with the actual image URL for the project
       projectLink: "https://www.capstone.cse.msu.edu/2024-01/projects/amazon/", // Replace with the actual project link
     },
     {
@@ -27,7 +27,7 @@ function Projects() {
         + "deadlines using Trello, and assigned tasks to ensure a cohesive workflow. " 
         + "By fostering collaboration and taking a hands-on approach, our team successfully "
         + "delivered on project goals, showcasing my leadership and project management capabilities.",
-      imageUrl: {APA4}, // Replace with the actual image URL for the project
+      imageUrl: APA4, // Replace with the actual image URL for the project
       projectLink: "http://cse.msu.edu/~vanderc9/index.html", // Replace with the actual project link
     },
     {
@@ -35,7 +35,7 @@ function Projects() {
       description: "As part of my first freelance web development"
             + " opportunity, I developed a webpage for the rentals called 'Amy's Cottages' at Chippewa Lake. "
             + "This (in addition to my webpage) highlights my ability to build beautiful and mobile friendly front end applications.",
-      imageUrl: {amyscottages}, // Replace with the actual image URL for the project
+      imageUrl: amyscottages, // Replace with the actual image URL for the project
       projectLink: "https://cottages-188509366972.us-central1.run.app/home", // Replace with the actual project link
     },
     
